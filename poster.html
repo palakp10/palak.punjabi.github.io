@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: #121315;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="header" style="background-color: #121315;">
+        <h1><b>Wine in the Age of Enlightenment</b></h1>
+    </div>
+    <div class="container" style="margin-top: 210px;">
+        <div class="row">
+            <div class="col-6 p-5 text-white">
+                <h4><b>What is this project about?</b></h4>
+                <hr>
+                <p class="pt-2">This project reimagines a wine bottle as a metaphor for royalty and wealth, drawing from
+                    the Neo-Classical Period's emphasis on symbolism. The bottle’s packaging design reflects the era’s
+                    principles, featuring intricate drapery, balanced symmetry, linear motifs, and a sophisticated color
+                    palette. The packaging seamlessly blends elegance with historical inspiration, embodying the
+                    grandeur of the period. This design was further transformed into a poster, where the packaging’s
+                    visual language celebrates the timeless sophistication of Neo-Classicism.</p>
+
+            </div>
+            <div class="col-6 ps-2">
+                <img src="./SVG/mockups inner pages/wine bottle mockup zoomed.svg" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-4 p-1"><img class="mt-1" style="width: 24vw;" src="./SVG/mockups inner pages/wine bottle packaging 1.svg" alt=""></div>
+            <div class="col-4 p-1 text-center pe-5 text-white"><b>Softwares Used: </b><br><hr> Adobe Illustrator <br> Adobe InDesign</div>
+            <div class="col-4 p-1"> <img style="width: 30vw;" src="./SVG/mockups inner pages/P2_PalakPunjabi_F_Poster 1.svg" alt=""></div>
+        </div>
+    </div>
+
+    <hr class="container" style="color: white;"> <br>
+
+    <script>
+
+
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.fontSize = "20px";
+            } else {
+                document.getElementById("header").style.fontSize = "90px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
